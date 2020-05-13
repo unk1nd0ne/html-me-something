@@ -1,0 +1,68 @@
+body {
+  width: 100%;
+	max-width: 1024px;
+	margin: 0 auto;
+	background-color: #999;
+}
+
+header {
+    width: 100%;
+    height: 300px;
+    background-image: url('images/thebay-sg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 70px 0;
+    font-size: 1.6em;
+    
+}
+header h1 {
+  text-align: center;
+  color: blueviolet;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+nav ul {
+	text-align: center;
+  padding: 20.5%;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 1em;
+	font-size: 0.75em;
+}
+nav a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #B7A5DF;
+  }
+  
+nav a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #D4CDDC;
+	}
+nav a:hover, a:focus, a:active { 
+	text-decoration: underline; 
+	color: #9685BA;
+	}
+section p {
+  text-align: justify;
+}
+
+.row {
+    align-content: center;
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
