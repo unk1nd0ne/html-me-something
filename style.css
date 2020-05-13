@@ -1,0 +1,11 @@
+header {
+    width: 100%;
+    height: 400px;
+    background-image: url('images/thebay-sg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+p {
+    color: red;
+}
