@@ -2,7 +2,7 @@ body {
   width: 100%;
 	max-width: 1024px;
 	margin: 0 auto;
-	background-color: #999;
+	background-color: darkgray;
 }
 
 header {
@@ -11,11 +11,12 @@ header {
     background-image: url('images/thebay-sg.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    padding: 70px 0;
-    font-size: 1.6em;
-    
+    padding: 70px 0px;
+    font-size: 1.6em; 
+    margin-bottom: -20px;
 }
-header h1 {
+
+#header-header {
   text-align: center;
   color: blueviolet;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
@@ -23,7 +24,7 @@ header h1 {
 
 nav ul {
 	text-align: center;
-  padding: 20.5%;
+  padding: 20.5% 0% 0%;
 }
 
 nav ul li {
@@ -31,6 +32,7 @@ nav ul li {
 	margin-right: 1em;
 	font-size: 0.75em;
 }
+
 nav a:link { 
 	font-weight: bold; 
 	text-decoration: none; 
@@ -45,9 +47,15 @@ nav a:visited {
 nav a:hover, a:focus, a:active { 
 	text-decoration: underline; 
 	color: #9685BA;
-	}
-section p {
+  }
+  
+#mainLine {
+  background-color: gray;
+}
+
+.informational {
   text-align: justify;
+  font-size: 18px;
 }
 
 .row {
@@ -66,6 +74,7 @@ section p {
     margin-right: auto;
     width: 50%;
   }
+
   figcaption {
     text-align: center;
   }
